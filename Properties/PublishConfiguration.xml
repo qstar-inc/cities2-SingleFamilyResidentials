@@ -1,0 +1,51 @@
+﻿<Publish>
+	<!--Id must be set in order to update existed mod. it is not required for publishing mod for the first time-->
+	<ModId Value="87691" />
+	<!--Name of the mod to display to players-->
+	<DisplayName Value="Single Family Residentials" />
+	<!--Short description of the mod-->
+	<ShortDescription Value="One zoning which includes all vanilla low density houses." />
+	<!--Long description of the mod. Single line or multi line. Supports minimal markdown subset-->
+	<!--LongDescription Value="This is a long description" /-->
+	<LongDescription>
+# Single Family Residentials
+Tired of switch back and forth to zone between the different low density residential houses? With this mod you can do just that.
+
+You can find the zone in the existing Residential tab in the Zoning menu.
+You can find all the buildings separately on Find It or Add Objects menu as well.
+
+# Asset Set Details
+* Total Count: 351
+* Zones: 1
+* Buildings: 350
+* UI priority: Residential Zone = 1
+* Icons: Zone icon redesigned from vanilla NA Low Residential Zoning. Buildings icons from "Asset Icon Library".
+
+# DISCLAIMER
+* Mod idea by [Konsi / Mimonsi](https://mods.paradoxplaza.com/authors/Mimonsi).
+* Safe to remove. This mod will not break your save if removed. However the assets will no longer work.
+* This mod may require ***Asset Packs Manager*** which is highly experimental. This mod shouldn't break the save game. But subscribing to assets that require this without the dependency will pop up errors. Worst case you'll get error popups on game load and/or grey boxes in save. But either way, YOU ARE RESPONSIBLE for any damage. Contact me on Discord and I'll try to help you recover anyway.
+	</LongDescription>
+	<!--Thumbnail-->
+	<Thumbnail Value="Properties/Thumbnail.png" />
+	<!--Screenshot, can be set multiple times-->
+	<Screenshot Value="Properties/Screenshot01.png" />
+	<Screenshot Value="Properties/Screenshot02.png" />
+	<!--Tag, can be set multiple times-->
+	<Tag Value="" />
+	<!--Link to the forum post where the mod can be discussed-->
+	<ForumLink Value="" />
+	<!--Version of the mod-->
+	<ModVersion Value="1.0.0" />
+	<!--Recommended version of the base game to use the mod-->
+	<GameVersion Value="*" />
+	<!--Dependency for the mod, can be set multiple times-->
+	<Dependency Id="75426" />	<!-- I18n EveryWhere -->
+	<Dependency Id="79634" />	<!-- Asset Icon Library -->
+	<!--Change log for new version. Single line or multi line. Supports minimal markdown subset-->
+	<ChangeLog Value="" />
+	<!--ChangeLog>
+	</ChangeLog-->
+	<!--External link. supported types are discord, github, youtube, twitch, x, paypal, patreon, buymeacoffee, kofi, crowdin, gitlab-->
+	<ExternalLink Type="github" Url="https://github.com/qstar-inc/cities2-SingleFamilyResidentials" />
+</Publish>
